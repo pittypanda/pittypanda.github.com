@@ -1,0 +1,16 @@
+div.border { border: 3px solid #CCC }
+div.thin   { border-width: 1px }
+div.thick  { border-width: 5px }
+div.fat    { border-width: 7px }
+
+div.narrow { padding: 0 2px; -moz-border-radius: 4px;  -webkit-border-radius: 4px }
+div.round  { padding: 0 3px; -moz-border-radius: 6px;  -webkit-border-radius: 6px }
+div.wide   { padding: 0 4px; -moz-border-radius: 8px;  -webkit-border-radius: 8px }
+div.uw     { padding: 0 5px; -moz-border-radius: 10px; -webkit-border-radius: 10px }
+
+div.blue   { background: #0CF; color: #FFF }
+div.black  { background: #000; color: #FFF }
+div.white  { background: #FFF }
+div.yellow { background: #FFBD00 }
+
+div.compact { display: inline-block }

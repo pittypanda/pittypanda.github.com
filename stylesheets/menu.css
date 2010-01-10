@@ -1,0 +1,20 @@
+div#menu { width: 100%; font-size: 105%; font-weight: 700 }
+
+ul#menu {
+  padding: 7px;
+  border-bottom: 1px solid #CCC;
+  text-align: right; white-space: nowrap
+}
+
+ul#menu li { margin: 0 5px; display: inline }
+ul#menu li.head { float: left }
+
+ul#menu a {
+  padding: 0 0 3px; border-bottom: 4px solid #FFF;
+  color: #999; text-decoration: none
+}
+
+ul#menu a#current    { border-color: #0CF; color: #666 }
+ul#menu a.item:hover { border-color: #0CF }
+
+ul#menu a#logo { color: #666 }
