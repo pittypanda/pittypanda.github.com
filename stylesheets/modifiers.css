@@ -8,7 +8,7 @@ div.round  { padding: 0 3px; -moz-border-radius: 6px;  -webkit-border-radius: 6p
 div.wide   { padding: 0 4px; -moz-border-radius: 8px;  -webkit-border-radius: 8px }
 div.uw     { padding: 0 5px; -moz-border-radius: 10px; -webkit-border-radius: 10px }
 
-div.blue   { background: #0CF; color: #FFF }
+div.blue   { background: #00CCFF; color: #FFF }
 div.black  { background: #000; color: #FFF }
 div.white  { background: #FFF }
 div.yellow { background: #FFBD00 }
