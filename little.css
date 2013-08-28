@@ -1,0 +1,54 @@
+﻿body { font-family: Verdana,Arial,sans-serif; background: #fdf6e3; margin: 1ex }
+article, aside, footer, header, menu, nav, section, time { display: block; margin: auto }
+
+header { max-width: 57.8em }
+header h1 a { color: #FF026C }
+
+span#logo { text-shadow: -1px 1px 1px rgba(0,0,0,0.25); text-decoration: none }
+a#logo, article header h1 a { text-decoration: none }
+
+article header h1 a:hover { text-decoration: underline }
+
+span#anchor { color: #915323 }
+
+section { max-width: 57.8em }
+
+article {
+  padding: 0.125ex 1em; background: white; margin-bottom: 1em; border-radius: 1ex; -moz-border-radius: 1ex;
+}
+
+aside { padding: 0; max-width: 57.8em; text-align: center }
+aside section { padding: 0; display: inline-block; width: 100%; max-width: 19em; margin-bottom: 1ex }
+
+time { text-align: right; font-size: 0.9em; color: #AC7C54 }
+
+p { line-height: 1.4em }
+
+footer { margin-top: 1em; font-size: 70%; color: #915323; text-align: center; font-weight: 700 }
+
+.awesome, .awesome:visited {
+  width:  100%; display: inline-block; padding: 5px 10px 6px;
+  color: #fff; text-decoration: none; border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  position: relative;
+  cursor: pointer
+}
+
+.awesome { font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25) }
+
+.awesome:hover  { background-color: #111; color: #fff }
+.awesome:active { top: 1px }
+
+.large.awesome { padding: 8px 0px 9px }
+
+.blue.awesome {
+  background-color: #FF026C;
+  transition: background-color .25s linear;
+  -o-transition: background-color .25s linear;
+  -moz-transition: background-color .25s linear;
+  -webkit-transition: background-color .25s linear
+}
+
+.blue.awesome:hover { background-color: #9C4A35 }
