@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>http://www.pittypanda.com/index.html</loc>
+    <loc>http://pittypanda.com/index.html</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
