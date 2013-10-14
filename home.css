@@ -1,0 +1,47 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
+
+html { max-width: 54em; margin: auto }
+body { font-family: Verdana,Arial,sans-serif; background: #fdf6e3; margin: 1ex }
+article, aside, footer, header, menu, nav, section, time { display: block }
+
+p { line-height: 1.4em }
+article.editor { line-height: 1.8em }
+
+footer { margin-top: 1em; font-size: 70%; color: #915323; text-align: center; font-weight: 700 }
+
+header h1 a#logo { color: #FF026C }
+span#logo { text-shadow: -1px 1px 1px rgba(0,0,0,0.25) }
+a#logo, header h1 a { text-decoration: none }
+/* span#anchor { color: #915323 } */
+span#anchor { color: #9C4A35 }
+
+
+article {
+  padding: 0.125ex 1em; background: white; margin-bottom: 1em;
+  border-radius: 1ex; -moz-border-radius: 1ex;
+}
+
+header h1 a { color: #000000 }
+header h1 a:hover { color: #9C4A35 }
+time { text-align: right; font-size: 0.9em; color: #AC7C54 }
+
+aside { padding: 0; text-align: center }
+aside section { padding: 0; display: inline-block; width: 100%; max-width: 17.38em; margin-bottom: 1ex }
+
+.button, .button:visited {
+  width:  100%; display: inline-block; vertical-align: bottom; padding: 1ex 0 1.2ex;
+  font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  color: #fff; text-decoration: none; border-radius: 5px;
+  position: relative
+}
+
+.pink.button {
+  background-color: #FF026C;
+  transition: background-color .25s linear;
+  -o-transition: background-color .25s linear;
+  -moz-transition: background-color .25s linear;
+  -webkit-transition: background-color .25s linear
+}
+
+.pink.button:hover { background-color: #9C4A35 }
+
