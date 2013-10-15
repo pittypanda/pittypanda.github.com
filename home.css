@@ -12,7 +12,6 @@ footer { margin-top: 1em; font-size: 70%; color: #915323; text-align: center; fo
 header h1 a#logo { color: #FF026C }
 span#logo { text-shadow: -1px 1px 1px rgba(0,0,0,0.25) }
 a#logo, header h1 a { text-decoration: none }
-/* span#anchor { color: #915323 } */
 span#anchor { color: #9C4A35 }
 
 
@@ -26,12 +25,16 @@ header h1 a:hover { color: #9C4A35 }
 time { text-align: right; font-size: 0.9em; color: #AC7C54 }
 
 aside { padding: 0; text-align: center }
-aside section { padding: 0; display: inline-block; width: 100%; max-width: 17.38em; margin-bottom: 1ex }
+aside section { padding: 0; display: inline-block; width: 100%; max-width: 17.43em; margin-bottom: 1ex }
 
-.button, .button:visited {
+@media (max-width: 37em) {
+  aside section { max-width: 100% }
+}
+
+.button {
   width:  100%; display: inline-block; vertical-align: bottom; padding: 1ex 0 1.2ex;
   font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-  color: #fff; text-decoration: none; border-radius: 5px;
+  color: #fff; text-decoration: none; border-radius: 0.5ex;
   position: relative
 }
 
