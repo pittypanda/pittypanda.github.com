@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1,2M
+http://38.99.146.36:7777/M2Morocco_HD.m3u8
+#EXTINF:-1,Abu Dhabi
+http://38.99.146.36:7777/ADAlOula_HD.m3u8
+#EXTINF:-1,Dubai TV
+http://dmi.mangomolo.com:1935/dubaitv/smil:dubaitv.smil/gmswf.m3u8
+#EXTINF:-1,Dubai One
+http://dmi.mangomolo.com:1935/dubaione/smil:dubaione.smil/gmswf.m3u8
+#EXTINF:-1,MBC 1
+http://38.99.146.36:7777/MBC1_HD.m3u8
+#EXTINF:-1,MBC 2
+http://38.99.146.36:7777/MBC2_HD/MBC2_High.m3u8
+#EXTINF:-1,MBC 3
+http://38.99.146.36:7777/MBC3_HD/MBC3_High.m3u8
+#EXTINF:-1,MBC ACTION
+http://63.237.48.23/ios/MBC_ACTION/MBC_ACTION.m3u8
+#EXTINF:-1,MBC MAX
+http://63.237.48.23/ios/MBC_MAX/MBC_MAX.m3u8
+#EXTINF:-1,MBC BOLLYWOOD
+http://63.237.48.23/ios/MBC_BOLLYWOOD/MBC_BOLLYWOOD.m3u8
+#EXTINF:-1,AlJazeera
+http://38.99.146.36:7777/AlJazeera_HD.m3u8
+#EXTINF:-1,AlArabiya
+http://38.99.146.36:7777/AlArabiya_HD.m3u8
+#EXTINF:-1,Baraem
+http://38.99.146.36:7777/Baraem_HD.m3u8
+#EXTINF:-1,Iqra
+http://38.99.146.36:7777/Iqraa_HD.m3u8
