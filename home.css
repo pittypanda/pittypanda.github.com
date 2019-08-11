@@ -1,7 +1,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
 
 html { max-width: 54em; margin: auto }
-body { font-family: Verdana,Arial,sans-serif; background: #fdf6e3; margin: 1ex }
+body { font-family: Verdana,Arial,sans-serif; margin: 1ex }
 article, aside, footer, header, menu, nav, section, time { display: block }
 
 p { line-height: 1.4em }
